@@ -37,7 +37,7 @@ public class BinaryTree {
         return bt;
     }
 
-    public boolean containsNode(int i) {
-        return false;
+    public boolean containsNode(int value) {
+        return Node.containsNodeRecursive(root, value);
     }
 }
